@@ -10,7 +10,7 @@
   align-items: center;
   width: 400px;
   margin: 0 auto;
-  margin-top: 30%;
+  margin-top: 20vh;
   background-color: #666;
   border-radius: 10px;
 }
@@ -47,7 +47,7 @@ button {
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 button:hover {
@@ -56,4 +56,3 @@ button:hover {
   background-color: #666;
   color: #fff;
 }
-
