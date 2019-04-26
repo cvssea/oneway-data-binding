@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>One Way Data Binding</title>
+  </head>
+  <body>
+    <!-- <div data-binding="name"></div>
+    <div data-binding="gender"></div>
+    <button>Get Hero</button> -->
+    <section>
+      <div class="card">
+        <div class="info">
+          <div>
+            <img data-binding="thumbnail" src="" alt="Profile picture" />
+          </div>
+          <div>
+            <p>Hi, my name is</p>
+            <h2 data-binding="name" id="name"></h2>
+            <p data-binding="email" id="email"></p>
+            <p data-binding="city" id="city"></p>
+          </div>
+        </div>
+        <button>New Friend</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
